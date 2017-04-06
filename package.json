@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "serve": "webpack-dev-server --content-base build"
+    "serve": "webpack-dev-server --content-base build",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "devDependencies": {
     "babel": "^6.3.26",
@@ -14,11 +15,13 @@
     "babel-preset-react": "^6.3.13",
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.14.0",
+    "gh-pages": "^0.12.0",
     "history": "^1.17.0",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "react-router": "^1.0.3",
     "webpack": "^1.12.12",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "homepage": "https://eharris99.github.io/fbclone"
 }
