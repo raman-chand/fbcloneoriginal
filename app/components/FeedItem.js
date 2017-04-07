@@ -9,7 +9,7 @@ export default class FeedItem extends React.Component {
     return (
       <div className="fb-status-update panel panel-default">
         <div className="panel-body">
-          <StatusUpdate author="Raman" postDate="Yesterday at 4:14pm"
+          <StatusUpdate author="Ramanpreet" postDate="Yesterday at 4:14pm"
                         location="New York, NY">Feeling excited about nothing!
           </StatusUpdate>
           <hr />
