@@ -2,6 +2,7 @@
 import React from 'react';
 import FeedItem from './feeditem';
 import StatusUpdateEntry from './StatusUpdateEntry';
+import Event from './Event';
 
 export default class Feed extends React.Component {
   render() {
@@ -9,6 +10,7 @@ export default class Feed extends React.Component {
       <div>
         <StatusUpdateEntry />
         <FeedItem />
+        <Event />
       </div>
     )
   }
