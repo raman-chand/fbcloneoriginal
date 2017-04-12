@@ -1,5 +1,6 @@
 "use strict"
 import React from 'react';
+import EventLinksNav from './EventLinksNav';
 
 export default class EventDetails extends React.Component {
 	render(){
@@ -16,6 +17,7 @@ export default class EventDetails extends React.Component {
 						<p>Public | Hosted by <a href="#">Raman's Events</a></p>
 					</div>
 				</div>
+				<EventLinksNav />
 			</div>
 		)
 	}
